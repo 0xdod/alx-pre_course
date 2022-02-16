@@ -1,3 +1,3 @@
 # ALX PRE COURSE
 
-Hello, this is a task for ALX foundation program
+This repo contains tasks for alx software engineering program
