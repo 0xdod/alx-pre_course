@@ -1,0 +1,34 @@
+This program reads in three INTEGERs and displays them in ascending order.
+
+function sort_three(a, b, c int){
+	if a <= b AND a <= c
+		then if b <= c
+			then print a, b, c
+		else
+			print a, c, b
+		endif
+	else if b <= a AND b <= c
+		then if a <= c
+			then print b, a, c
+		else
+			print b, c, a
+		endif
+	else
+		if a <= b 
+			then print c, a, b
+		else
+			print c, b, a
+		endif
+	endif 
+end
+}
+
+{
+In the main function
+	
+print prompt "Enter numbers after the prompt"
+		
+Read input for a, b, c
+
+sort_three(a,b,c) 
+}
