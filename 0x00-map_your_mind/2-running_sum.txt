@@ -1,0 +1,26 @@
+This program calculates a running sum of numbers until a negative number is encountered.
+
+function running_sum(Numbers[] ){
+	sum = 0
+
+	for number in Numbers
+		if number < 0
+			then break
+		else 
+			sum += number
+		endif
+	endfor
+
+	return sum
+end
+}
+
+{
+In the main function
+	
+print prompt "Enter numbers seperated by space"
+		
+Parse inputs as and array of numbers, save as variable Numbers
+
+running_sum(Numbers) 
+}
