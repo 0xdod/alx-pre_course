@@ -1,0 +1,34 @@
+This program calculates the sum of squares of given input of numbers
+
+function square(number){
+
+	Multiply number by itself
+
+	return result
+end
+}
+function squares_sum(Numbers[]){
+	if Numbers' length == 0,
+		then return 0
+	
+	sum = 0
+
+	for i in Numbers
+		sum += square(i)
+	
+	return sum
+
+end
+}
+
+{
+In the main function
+	
+print prompt "Enter numbers seperated by space"
+		
+Parse user input into an array of Numbers
+
+result = squares_sum(Numbers)
+
+Print result 
+}
